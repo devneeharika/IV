@@ -66,5 +66,5 @@ function vis1(data, div) {
     .attr("y", d => y(d.name))
     .attr("width", d => x(d.score))
     .attr("height", d => y.bandwidth())
-    .attr("fill", "steelblue");
+    .attr("fill", "pink");
 }
